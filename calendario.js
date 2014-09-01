@@ -88,6 +88,7 @@
                 datepicker.picker.remove();
                 delete this.element.data().datepicker;
                 this.element.off(this.options.block.join(' '));
+                this.element.data('calendario', null);
             }
         }
 
